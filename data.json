@@ -2,115 +2,171 @@
   {
     "day": "montag",
     "meal": {
-      "breakfast": {
-        "name": "pazartesi breakfast yemek adi",
-        "calori": 300,
+      "Frühstück": {
+        "name": "Pancakes, Pfannekuchen, Waffeln und Co.",
+        "calori": 1800,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
-        "ingredients": ["pommes", "tea", "menemen", "tomaten", "salat"]
+        "ingredients": [
+          "Quark Pancakes mit Orangenkompott",
+          "Kürbispancakes mit Quarkcreme",
+          "Amerikanische Buttermilch-Pancakes!",
+          "Ofenpfannekuchen mit Beeren oder Apfel",
+          "Briochewaffeln mit Eggs Florentine"
+        ],
+        "desription": "Legen wir los mit Pancakes, meinen persönlichen Frühstücksfavoriten und meinem Empfinden nach werden sie im deutschen Raum immer populärer."
       },
-      "oglen": {
+      "Mittagessen": {
         "name": "pazartesi öglen yemek adi",
         "calori": 400,
         "imageUrl": "https://cdn.pixabay.com/photo/2019/11/19/22/25/animal-4638681_640.jpg",
         "ingredients": ["e", "f", "g", "h"]
       },
-      "dinner": {
-        "name": "pazartesi dinner yemek adi",
+      "Abendessen": {
+        "name": "pazartesi Abendessen yemek adi",
         "calori": 500,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/11/10/55/couple-7061929_640.jpg",
-        "ingredients": ["i", "j", "k", "l"]
+        "ingredients": [
+          "Tagliatelle in Sahnesoße mit Lachs und Frühlingszwiebeln",
+          "j",
+          "k",
+          "l"
+        ]
       }
     }
   },
   {
     "day": "dienstag",
     "meal": {
-      "breakfast": {
-        "name": "sali breakfast yemek adi",
+      "Frühstück": {
+        "name": "Herzhaftes Frühstück",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
-        "ingredients": ["a", "b", "c", "d"]
+        "ingredients": [
+          "Menemen – türkisches Bauernfrühstück",
+          "Deftiges (deutsches) Bauernfrühstück",
+          "Schnittlauch-Rührei mit Pfifferlingen",
+          "Frühstücks-Burger mit Rösti und Rührei"
+        ],
+        "desription": "Türkisches Rührei? Noch nie gehört? Dann wird´s Zeit, Conny hat ein wunderbares Rezept des sogennanten „Menemen“ online gestellt. Eine Art Paprika-Rührei, die ich auch schon öfters in der Art gemacht habe. Wobei – um an das Original heranzukommen, solltet ihr wie im Rezept die klassische, grüne oder rote Spitzpaprika aus der Türkei nehmen."
       },
-      "oglen": {
+      "Mittagessen": {
         "name": "sali öglen yemek adi",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
         "ingredients": ["a", "b", "c", "d"]
       },
-      "dinner": {
-        "name": "sali dinner yemek adi",
+      "Abendessen": {
+        "name": "sali Abendessen yemek adi",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
-        "ingredients": ["a", "b", "c", "d"]
+        "ingredients": [
+          "Pasta in cremiger Puten-Champignon-Sauce",
+          "Gyros vom Hähnchen mit Zaziki",
+          "Marmorierte Rote-Bete-Suppe",
+          "d"
+        ]
       }
     }
   },
   {
     "day": "mittwoch",
     "meal": {
-      "breakfast": {
-        "name": "carsamba breakfast yemek adi",
+      "Frühstück": {
+        "name": "Süßes Frühstück",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
-        "ingredients": ["a", "b", "c", "d"]
+        "ingredients": [
+          "Kaiserschmarren mit Joghurt, gegrillten Nektarinen und Thymiansauce",
+          "Knuspriges French Toast",
+          "Apfelpuffer / Apfelküchlein / Apfelpfannekuchen",
+          "Erdnuss Dutch Baby mit Zimt-Quark und karamellisierter Ananas"
+        ],
+        "desription": "Ein kleiner süßen Nachtrag zum Frühstück & Brunch – ihr seht ich mag süße Köstlichkeiten! Man muss ja nicht jeden Tag ausgiebig schlemmen, doch es sind ohne Frage unglaublich leckere Gerichte, die so manchen verregneten Sonntagmorgen kulinarisch erhellen können"
       },
-      "oglen": {
+      "Mittagessen": {
         "name": "carsamba öglen yemek adi",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
         "ingredients": ["a", "b", "c", "d"]
       },
-      "dinner": {
-        "name": "carsamba dinner yemek adi",
+      "Abendessen": {
+        "name": "carsamba Abendessen yemek adi",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
-        "ingredients": ["a", "b", "c", "d"]
+        "ingredients": [
+          "Hähnchen mit Paprikasoße und Zucchini-Gemüse",
+          "Kartoffelgulasch mit Würstchen",
+          "Lava-Cake-Rezept",
+          "Gebratener Reis mit Gemüse"
+        ]
       }
     }
   },
   {
     "day": "donnerstag",
     "meal": {
-      "breakfast": {
-        "name": "persembe breakfast yemek adi",
+      "Frühstück": {
+        "name": "Brot und Gebackenes",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
-        "ingredients": ["a", "b", "c", "d"]
+        "ingredients": [
+          "Süßer Birnenstrudel oder salziger Birnenstrudel",
+          "Quarkbrot mit Chia Samen",
+          "Mohnhörnchen aus Dinkelmehl",
+          "Leichte Frühstücks-Croissants mit Joghurt"
+        ],
+        "desription": "Wer geht die Brötchen holen?“ war gestern! Heutzutage wird selbst gebacken zum Frühstück. Ein Trend, den ich natürlich total genial finde, denn mit etwas Kreativität kann man so manche Köstlichkeit zaubern, die einem keine Bäckerei liefern kann."
       },
-      "oglen": {
+      "Mittagessen": {
         "name": "persembe öglen yemek adi",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
         "ingredients": ["a", "b", "c", "d"]
       },
-      "dinner": {
-        "name": "persembe dinner yemek adi",
+      "Abendessen": {
+        "name": "persembe Abendessen yemek adi",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
-        "ingredients": ["a", "b", "c", "d"]
+        "ingredients": [
+          "Krosses Parmesan-Schnitzel mit Honig-Kartoffeln und Gurkensalat",
+          "Brokkolisalat",
+          "Wraps mit Lachs, Kresse und Ei",
+          "Frische Tomatensuppe mit Basilikum"
+        ]
       }
     }
   },
   {
     "day": "freitag",
     "meal": {
-      "breakfast": {
-        "name": "cuma breakfast yemek adi",
+      "Frühstück": {
+        "name": "Aufstriche zum Frühstück",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
-        "ingredients": ["a", "b", "c", "d"]
+        "ingredients": [
+          "Dreierlei hausgemachte Aufstriche",
+          "Erdbeer-Butter",
+          "Müsli, Bowls und Co.",
+          "Toastmuffins mit grünem Spargel"
+        ],
+        "desription": "Jeden Morgen –  Tag aus, Tag ein – die immer selbe Salami oder die ewig gleiche Marmelade? Da kann ich ganz schnell Abhilfe schaffen mit ein paar Anregungen für leckere, selbstgemachte Aufstriche. Ein Trend, der schwer im Kommen ist und zurecht im Kommen ist, da man hierdurch ein simples Brot oder eine einfache Semmel zu ganz was Besonderen machen kann!"
       },
-      "oglen": {
+      "Mittagessen": {
         "name": "cuma öglen yemek adi",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
         "ingredients": ["a", "b", "c", "d"]
       },
-      "dinner": {
-        "name": "cuma dinner yemek adi",
+      "Abendessen": {
+        "name": "cuma Abendessen yemek adi",
         "calori": 300,
         "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
-        "ingredients": ["a", "b", "c", "d"]
+        "ingredients": [
+          "Kartoffel-Karotten-Pfanne",
+          "Einfache Spaghetti Bolognese mit Parmesan",
+          "Gebratener Reis mit Gemüse",
+          "Omelett mit Feta und Tomaten"
+        ]
       }
     }
   }
