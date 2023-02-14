@@ -187,8 +187,13 @@
 }
 
 .mode:hover {
-  background-color: var(--black-navbar);
-  color: var(--white-color);
+  color: var(--black-navbar);
+  background-color: var(--white-color);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.dark-icon:hover {
+  background-color: var(--black-navbar);
+  color: var(--white-color);
 }
