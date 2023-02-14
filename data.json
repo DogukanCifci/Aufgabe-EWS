@@ -1,0 +1,117 @@
+[
+  {
+    "day": "montag",
+    "meal": {
+      "breakfast": {
+        "name": "pazartesi breakfast yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["pommes", "tea", "menemen", "tomaten", "salat"]
+      },
+      "oglen": {
+        "name": "pazartesi öglen yemek adi",
+        "calori": 400,
+        "imageUrl": "https://cdn.pixabay.com/photo/2019/11/19/22/25/animal-4638681_640.jpg",
+        "ingredients": ["e", "f", "g", "h"]
+      },
+      "dinner": {
+        "name": "pazartesi dinner yemek adi",
+        "calori": 500,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/11/10/55/couple-7061929_640.jpg",
+        "ingredients": ["i", "j", "k", "l"]
+      }
+    }
+  },
+  {
+    "day": "dienstag",
+    "meal": {
+      "breakfast": {
+        "name": "sali breakfast yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      },
+      "oglen": {
+        "name": "sali öglen yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      },
+      "dinner": {
+        "name": "sali dinner yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      }
+    }
+  },
+  {
+    "day": "mittwoch",
+    "meal": {
+      "breakfast": {
+        "name": "carsamba breakfast yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      },
+      "oglen": {
+        "name": "carsamba öglen yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      },
+      "dinner": {
+        "name": "carsamba dinner yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      }
+    }
+  },
+  {
+    "day": "donnerstag",
+    "meal": {
+      "breakfast": {
+        "name": "persembe breakfast yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      },
+      "oglen": {
+        "name": "persembe öglen yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      },
+      "dinner": {
+        "name": "persembe dinner yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      }
+    }
+  },
+  {
+    "day": "freitag",
+    "meal": {
+      "breakfast": {
+        "name": "cuma breakfast yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      },
+      "oglen": {
+        "name": "cuma öglen yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      },
+      "dinner": {
+        "name": "cuma dinner yemek adi",
+        "calori": 300,
+        "imageUrl": "https://cdn.pixabay.com/photo/2022/03/23/18/56/beach-7087722_640.jpg",
+        "ingredients": ["a", "b", "c", "d"]
+      }
+    }
+  }
+]

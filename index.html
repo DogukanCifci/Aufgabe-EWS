@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpeiseKarte</title>
+
+    <!-- BOOTSTRAP IMPORT  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- FONT AWESOME IMPORT  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- style.css IMPORT -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR==== -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <div class="phone">
+          <i class="fa-solid fa-mobile"></i>
+          <div class="phone-contact">
+            <a href="tel:+4917663425770">+4917663425770</a>
+            <p>Dogukan Cifci</p>
+          </div>
+        </div>
+        <a class="navbar-brand logo" href="#">
+          <img
+            class="foto"
+            src="https://img.freepik.com/premium-vector/catering-quality-food-design-logo_187482-593.jpg?w=2000"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-center" id="offcanvasNavbarLabel">
+              MENU
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item" id="montag">
+                <a class="nav-link" aria-current="page" href="#montag"
+                  >Montag</a
+                >
+              </li>
+              <li class="nav-item" id="dienstag">
+                <a class="nav-link" aria-current="page" href="#dienstag"
+                  >Dienstag</a
+                >
+              </li>
+              <li class="nav-item" id="mittwoch">
+                <a class="nav-link" aria-current="page" href="#mittwoch"
+                  >Mittwoch</a
+                >
+              </li>
+              <li class="nav-item" id="donnerstag">
+                <a class="nav-link" aria-current="page" href="#donnerstag"
+                  >Donnerstag</a
+                >
+              </li>
+              <li class="nav-item" id="freitag">
+                <a class="nav-link" aria-current="page" href="#freitag"
+                  >Freitag</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- NAVBAR END===== -->
+
+    <!-- MAIN START ===== -->
+    <main class="main-container">
+      <div class="title"></div>
+      <div class="cards"></div>
+    </main>
+
+    <!-- MAIN END ===== -->
+
+    <!-- DARK-DAY MODE -->
+    <div class="mode">
+      <i class="fa-solid fa-moon"></i>
+      <i class="fa-regular fa-lightbulb"></i>
+    </div>
+    <!-- Javascript import -->
+    <script type="text/javascript" src="./script.js"></script>
+
+    <!-- Bootstrap JS import -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!--
+
+    <div class="card">
+        <div class="meal">Morning</div>
+        <div class="food-picture">
+          <img src="./assets/background-food2.avif" alt="food-picture" />
+        </div>
+        <div class="food-title">ABCD</div>
+        <div class="calori-infos">300kcal</div>
+        <div class="ingredients">
+          <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="meal">Morning</div>
+
+        <div class="food-picture">
+          <img src="./assets/background-food2.avif" alt="food-picture" />
+        </div>
+        <div class="food-title">ABCD</div>
+        <div class="calori-infos">300kcal</div>
+        <div class="ingredients">
+          <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="meal">Morning</div>
+        <div class="food-picture">
+          <img src="./assets/background-food2.avif" alt="food-picture" />
+        </div>
+        <div class="food-title">ABCD</div>
+        <div class="calori-infos">300kcal</div>
+        <div class="ingredients">
+          <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+          </ul>
+        </div>
+      </div>
+ -->
