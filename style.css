@@ -6,6 +6,7 @@
   --black-second: #303a40;
   --gray-color: #354249;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +17,8 @@
   height: 200px;
   background-color: var(--red-color) !important;
   padding: 0 30px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .phone {
@@ -74,9 +77,10 @@
 .main-container {
   display: flex;
   flex-direction: column;
-  margin-top: 250px;
+  padding-top: 250px;
   align-items: center;
   justify-content: center;
+  background-color: aliceblue;
 }
 
 .title {
@@ -99,6 +103,8 @@
   min-height: 600px;
   text-align: center;
   border-radius: 70px;
+  background-color: var(--red-color);
+  box-shadow: 5px 5px 5px 5px black;
 }
 
 .card:nth-child(3) {
@@ -136,6 +142,10 @@
 /* MAIN STYLES END */
 
 /* DARK-DAY MODE STYLES */
+.dark-navbar {
+  background-color: #5d3891 !important;
+}
+
 .mode {
   font-size: 40px;
   border: 3px solid black;
@@ -150,20 +160,26 @@
   background-color: var(--black-first);
   color: var(--white-color);
 }
+
 .fa-lightbulb {
   display: none;
+  padding: 2px 6px;
 }
+
 .dark {
   background-color: var(--black-first);
 }
 .dark .title {
   color: var(--white-color);
 }
-
+.dark .card {
+  background-color: #5d3891;
+}
 .dark-icon {
   background-color: var(--white-color);
   color: var(--black-first);
 }
+
 /* HOVER PART  */
 .card:hover {
   cursor: pointer;

@@ -3,9 +3,13 @@
 const card = document.querySelector(".cards");
 const value = document.querySelectorAll("li");
 const ul = document.querySelector(".navbar-nav");
+const li = document.querySelectorAll(".nav-item");
 const title = document.querySelector(".title");
 const mode = document.querySelector(".mode");
 const mainContainer = document.querySelector(".main-container");
+const firstModeIcon = document.querySelector(".fa-moon");
+const secondModeIcon = document.querySelector(".fa-lightbulb");
+const navbarContainer = document.querySelector(".navbar");
 
 let isDarkTrue = true;
 let clickedLi = "montag";
@@ -30,7 +34,7 @@ xhr.onload = function () {
     const data = JSON.parse(this.responseText);
     console.log(data);
 
-    console.log(clickedLi);
+    console.log("ICERIDEKI LI : ", clickedLi);
     data.forEach((element) => {
       if (element.day === clickedLi) {
         keys = Object.keys(Object.values(element)[1]);
@@ -71,15 +75,27 @@ value.forEach((e) => {
   };
 });
 
-//MODE CHANGE
-console.log(isDarkTrue);
+//Denedim olmadi
+// value.forEach((e) => {
+//   e.addEventListener("click", () => {
+//     location.reload()
+//   });
+// });
+
+//MODE AND ICON CHANGING
 
 mode.addEventListener("click", () => {
   if (mainContainer.classList.contains("dark")) {
     mainContainer.classList.remove("dark");
     mode.classList.remove("dark-icon");
+    navbarContainer.classList.remove("dark-navbar");
+    firstModeIcon.style.display = "block";
+    secondModeIcon.style.display = "none";
   } else {
     mainContainer.classList.add("dark");
     mode.classList.add("dark-icon");
+    navbarContainer.classList.add("dark-navbar");
+    firstModeIcon.style.display = "none";
+    secondModeIcon.style.display = "block";
   }
 });
