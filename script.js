@@ -34,6 +34,30 @@ xhr.onload = function () {
     const data = JSON.parse(this.responseText);
     console.log("Icerideki data : ", data);
     clickFunction(data); //SENDING DATA TO FUNCTION
+
+    //Um beim ersten Laden der Webseite die Daten angezeigt werden zu können
+    data.forEach((element) => {
+      if (element.day === clickedLi) {
+        keys = Object.keys(Object.values(element)[1]);
+        console.log("KEYS : ", keys);
+        values = Object.values(Object.values(element)[1]);
+        console.log("VALUES : ", values);
+        title.innerHTML = `${clickedLi}`;
+        Object.values(Object.values(element)[1]).forEach((e, idx) => {
+          card.innerHTML += `
+                    <div class="card">
+                <div class="meal">${keys[idx]}</div>
+                <div class="food-picture">
+                  <img src=${values[idx].imageUrl} alt="food-picture" />
+                </div>
+                <div class="food-title">${values[idx].name}</div>
+                <div class="ingredients">
+                  ${values[idx].ingredients}
+                </div>
+                    `;
+        });
+      }
+    });
   }
 };
 
@@ -48,6 +72,7 @@ xhr.send();
 const clickFunction = (data) => {
   value.forEach((e) => {
     e.onclick = () => {
+      card.innerHTML = ``; //Um zu verhindern, dass es mit der Ergänzung des vorherigen Tagesmenüs weitergeht, muss ich dies schreiben.
       clickedLi = e.id;
       data.forEach((element) => {
         if (element.day === clickedLi) {
