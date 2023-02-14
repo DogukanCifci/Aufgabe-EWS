@@ -32,31 +32,8 @@ console.log(xhr);
 xhr.onload = function () {
   if (this.status === 200) {
     const data = JSON.parse(this.responseText);
-    console.log(data);
-
-    console.log("ICERIDEKI LI : ", clickedLi);
-    data.forEach((element) => {
-      if (element.day === clickedLi) {
-        keys = Object.keys(Object.values(element)[1]);
-        console.log("KEYS : ", keys);
-        values = Object.values(Object.values(element)[1]);
-        console.log("VALUES : ", values);
-        title.innerHTML = `${clickedLi}`;
-        Object.values(Object.values(element)[1]).forEach((e, idx) => {
-          card.innerHTML += `
-                  <div class="card">
-              <div class="meal">${keys[idx]}</div>
-              <div class="food-picture">
-                <img src=${values[idx].imageUrl} alt="food-picture" />
-              </div>
-              <div class="food-title">${values[idx].name}</div>
-              <div class="ingredients">
-                ${values[idx].ingredients}
-              </div>
-                  `;
-        });
-      }
-    });
+    console.log("Icerideki data : ", data);
+    clickFunction(data); //SENDING DATA TO FUNCTION
   }
 };
 
@@ -67,18 +44,36 @@ xhr.send();
 
 //EVENTS =====
 
-//Wir erreichen die aufgeklickte Li
-value.forEach((e) => {
-  e.onclick = () => {
-    clickedLi = e.id;
-    console.log(clickedLi);
-  };
-});
-
-//Denedim olmadi
-value.forEach((e) => {
-  e.addEventListener("click", () => {});
-});
+//Wir erreichen die geklickte Li und schicken zur Function
+const clickFunction = (data) => {
+  value.forEach((e) => {
+    e.onclick = () => {
+      clickedLi = e.id;
+      data.forEach((element) => {
+        if (element.day === clickedLi) {
+          keys = Object.keys(Object.values(element)[1]);
+          console.log("KEYS : ", keys);
+          values = Object.values(Object.values(element)[1]);
+          console.log("VALUES : ", values);
+          title.innerHTML = `${clickedLi}`;
+          Object.values(Object.values(element)[1]).forEach((e, idx) => {
+            card.innerHTML += `
+                    <div class="card">
+                <div class="meal">${keys[idx]}</div>
+                <div class="food-picture">
+                  <img src=${values[idx].imageUrl} alt="food-picture" />
+                </div>
+                <div class="food-title">${values[idx].name}</div>
+                <div class="ingredients">
+                  ${values[idx].ingredients}
+                </div>
+                    `;
+          });
+        }
+      });
+    };
+  });
+};
 
 //MODE AND ICON CHANGING
 
