@@ -76,11 +76,9 @@ value.forEach((e) => {
 });
 
 //Denedim olmadi
-// value.forEach((e) => {
-//   e.addEventListener("click", () => {
-//     location.reload()
-//   });
-// });
+value.forEach((e) => {
+  e.addEventListener("click", () => {});
+});
 
 //MODE AND ICON CHANGING
 
