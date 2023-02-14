@@ -54,6 +54,8 @@ xhr.onload = function () {
                 <div class="ingredients">
                   ${values[idx].ingredients}
                 </div>
+                <div class="price">PRICE : ${values[idx].price}€</div>
+                </div>
                     `;
         });
       }
@@ -82,6 +84,7 @@ const clickFunction = (data) => {
           console.log("VALUES : ", values);
           title.innerHTML = `${clickedLi}`;
           Object.values(Object.values(element)[1]).forEach((e, idx) => {
+            console.log(`${values[idx].price}`);
             card.innerHTML += `
                     <div class="card">
                 <div class="meal">${keys[idx]}</div>
@@ -91,6 +94,8 @@ const clickFunction = (data) => {
                 <div class="food-title">${values[idx].name}</div>
                 <div class="ingredients">
                   ${values[idx].ingredients}
+                </div>
+                <div class="price">PRICE : ${values[idx].price}€</div>
                 </div>
                     `;
           });

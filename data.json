@@ -10,10 +10,10 @@
           "Quark Pancakes mit Orangenkompott",
           "Kürbispancakes mit Quarkcreme",
           "Amerikanische Buttermilch-Pancakes!",
-          "Ofenpfannekuchen mit Beeren oder Apfel",
-          "Briochewaffeln mit Eggs Florentine"
+          "Ofenpfannekuchen mit Beeren oder Apfel"
         ],
-        "desription": "Legen wir los mit Pancakes, meinen persönlichen Frühstücksfavoriten und meinem Empfinden nach werden sie im deutschen Raum immer populärer."
+        "desription": "Legen wir los mit Pancakes, meinen persönlichen Frühstücksfavoriten und meinem Empfinden nach werden sie im deutschen Raum immer populärer.",
+        "price": 38
       },
       "Mittagessen": {
         "name": "Menu mit Salat",
@@ -25,7 +25,8 @@
           "Penne mit Pute und Gemüse",
           "Pizza Margherita – Grundrezept für Teig und Soße"
         ],
-        "desription": "Jeden Tag erneut stellt sich die Frage: Was gibt es heute zu Mittag? Dieses tolle Nudelgericht ist perfekt zur Resteverwertung und in unter 30 Minuten gemacht. Mit seinen rot, weiß und grünen Farben erinnert es direkt an Italien. Und mit den knackigen Tomaten, dem frischen Knoblauch und leckerem Käse schmeckt es auch so.Auch wenn einmal etwas übrigbleibt, ist das kein Problem, denn in einem geeigneten Gefäß kann man es problemlos einfrieren. Damit der Schmelzeffekt perfekt wird, sollte man es vor dem erneuten Erwärmen im Ofen oder der Mikrowelle, aber nochmals mit Käse bestreuen."
+        "desription": "Jeden Tag erneut stellt sich die Frage: Was gibt es heute zu Mittag? Dieses tolle Nudelgericht ist perfekt zur Resteverwertung und in unter 30 Minuten gemacht. Mit seinen rot, weiß und grünen Farben erinnert es direkt an Italien. Und mit den knackigen Tomaten, dem frischen Knoblauch und leckerem Käse schmeckt es auch so.Auch wenn einmal etwas übrigbleibt, ist das kein Problem, denn in einem geeigneten Gefäß kann man es problemlos einfrieren. Damit der Schmelzeffekt perfekt wird, sollte man es vor dem erneuten Erwärmen im Ofen oder der Mikrowelle, aber nochmals mit Käse bestreuen.",
+        "price": 45
       },
       "Abendessen": {
         "name": "Nudeln mit Salat",
@@ -37,7 +38,8 @@
           "Puten-Gulasch mit Mais und Paprika",
           "Puten-Tomaten-Topf mit Kräutersauce"
         ],
-        "desription": "Tagliatelle in Sahnesoße mit Lachs und Frühlingszwiebeln ist ein leckeres italienisches Nudelgericht. Dabei werden flache Nudeln (Tagliatelle) in einer Sahnesoße mit Lachs und Frühlingszwiebeln serviert. Fertig ist ein köstliches, schnell zubereitetes Gericht, das für einen besonderen Anlass oder als Alltagsessen geeignet ist. Guten Appetit!"
+        "desription": "Tagliatelle in Sahnesoße mit Lachs und Frühlingszwiebeln ist ein leckeres italienisches Nudelgericht. Dabei werden flache Nudeln (Tagliatelle) in einer Sahnesoße mit Lachs und Frühlingszwiebeln serviert. Fertig ist ein köstliches, schnell zubereitetes Gericht, das für einen besonderen Anlass oder als Alltagsessen geeignet ist. Guten Appetit!",
+        "price": 50
       }
     }
   },
@@ -54,7 +56,8 @@
           "Schnittlauch-Rührei mit Pfifferlingen",
           "Frühstücks-Burger mit Rösti und Rührei"
         ],
-        "desription": "Türkisches Rührei? Noch nie gehört? Dann wird´s Zeit, Conny hat ein wunderbares Rezept des sogennanten „Menemen“ online gestellt. Eine Art Paprika-Rührei, die ich auch schon öfters in der Art gemacht habe. Wobei – um an das Original heranzukommen, solltet ihr wie im Rezept die klassische, grüne oder rote Spitzpaprika aus der Türkei nehmen."
+        "desription": "Türkisches Rührei? Noch nie gehört? Dann wird´s Zeit, Conny hat ein wunderbares Rezept des sogennanten „Menemen“ online gestellt. Eine Art Paprika-Rührei, die ich auch schon öfters in der Art gemacht habe. Wobei – um an das Original heranzukommen, solltet ihr wie im Rezept die klassische, grüne oder rote Spitzpaprika aus der Türkei nehmen.",
+        "price": 24
       },
       "Mittagessen": {
         "name": "Leckeres Hähnchenmenü mit Nachspeise",
@@ -66,7 +69,8 @@
           "Spinat-Feta-Quiche mit Röstiboden",
           "Veganer Zwiebelkuchen"
         ],
-        "desription": "Was isst man zum Lunch? Die Auswahl dabei ist groß. Doch hier kommt ein Rezept, das nur wenig Kalorien enthält und superleicht im Magen liegt. Ein Riesenvorteil ist dabei noch, dass die Gemüsemuffel unter euch dieses noch clever verstecken können. Zusammen mit den Eiern wird somit euer täglicher Protein- und Vitaminbedarf gedeckt."
+        "desription": "Was isst man zum Lunch? Die Auswahl dabei ist groß. Doch hier kommt ein Rezept, das nur wenig Kalorien enthält und superleicht im Magen liegt. Ein Riesenvorteil ist dabei noch, dass die Gemüsemuffel unter euch dieses noch clever verstecken können. Zusammen mit den Eiern wird somit euer täglicher Protein- und Vitaminbedarf gedeckt.",
+        "price": 28
       },
       "Abendessen": {
         "name": "Pasta al dente in sahniger Puten-Champignon-Sauce",
@@ -78,7 +82,8 @@
           "Marmorierte Rote-Bete-Suppe",
           "Brokkoli-Gnocchi-Auflauf mit Schinken"
         ],
-        "desription": "Dieses Gericht ist ein wahrer Genuss für alle Liebhaber von Pasta-Gerichten und ist eine großartige Wahl für ein schnelles Mittagessen oder ein romantisches Abendessen zu zweit. Es wird frisch zubereitet und mit frischen Kräutern garniert, um die Aromen perfekt abzurunden. Lassen Sie sich von diesem cremigen Nudelgericht mit zarten Putenstreifen und aromatischen Champignons verzaubern. Serviert wird dieses Gericht in unserem gemütlichen Restaurant und ist auch als Take-away erhältlich. Guten Appetit!"
+        "desription": "Dieses Gericht ist ein wahrer Genuss für alle Liebhaber von Pasta-Gerichten und ist eine großartige Wahl für ein schnelles Mittagessen oder ein romantisches Abendessen zu zweit. Es wird frisch zubereitet und mit frischen Kräutern garniert, um die Aromen perfekt abzurunden. Lassen Sie sich von diesem cremigen Nudelgericht mit zarten Putenstreifen und aromatischen Champignons verzaubern. Serviert wird dieses Gericht in unserem gemütlichen Restaurant und ist auch als Take-away erhältlich. Guten Appetit!",
+        "price": 30
       }
     }
   },
@@ -95,7 +100,8 @@
           "Apfelpuffer / Apfelküchlein / Apfelpfannekuchen",
           "Erdnuss Dutch Baby mit Zimt-Quark und karamellisierter Ananas"
         ],
-        "desription": "Ein kleiner süßen Nachtrag zum Frühstück & Brunch – ihr seht ich mag süße Köstlichkeiten! Man muss ja nicht jeden Tag ausgiebig schlemmen, doch es sind ohne Frage unglaublich leckere Gerichte, die so manchen verregneten Sonntagmorgen kulinarisch erhellen können"
+        "desription": "Ein kleiner süßen Nachtrag zum Frühstück & Brunch – ihr seht ich mag süße Köstlichkeiten! Man muss ja nicht jeden Tag ausgiebig schlemmen, doch es sind ohne Frage unglaublich leckere Gerichte, die so manchen verregneten Sonntagmorgen kulinarisch erhellen können",
+        "price": 18
       },
       "Mittagessen": {
         "name": "Herzhafte Hackfleischpfanne mit Hörnchen",
@@ -107,7 +113,8 @@
           "Herzhafte Pizza-Muffins",
           "Würstchen im Teigmantel"
         ],
-        "desription": "Gerade im Sommer sind die meisten Menschen auf der Suche nach einem Rezept, welches nicht schwer im Magen liegt. Diese Pfanne ist nicht nur im Winter ein absoluter Geheimfavorit und ein leckeres Rezept zum Mittagessen."
+        "desription": "Gerade im Sommer sind die meisten Menschen auf der Suche nach einem Rezept, welches nicht schwer im Magen liegt. Diese Pfanne ist nicht nur im Winter ein absoluter Geheimfavorit und ein leckeres Rezept zum Mittagessen.",
+        "price": 42
       },
       "Abendessen": {
         "name": "Abendessen mit Gemüse",
@@ -119,7 +126,8 @@
           "Lava-Cake-Rezept",
           "Gebratener Reis mit Gemüse"
         ],
-        "desription": "Hähnchen mit Paprikasoße und Zucchini-Gemüse ist ein köstliches und nahrhaftes Gericht aus saftigem Hähnchenfleisch, einer aromatischen Paprikasoße und frischem Zucchini-Gemüse. Dieses Gericht ist eine perfekte Kombination aus Eiweiß, Gemüse und Geschmack. Es ist ideal für eine schnelle und dennoch nahrhafte Mahlzeit unter der Woche oder als festliches Gericht für besondere Anlässe. Es ist einfach zuzubereiten und kann schnell auf den Tisch gebracht werden."
+        "desription": "Hähnchen mit Paprikasoße und Zucchini-Gemüse ist ein köstliches und nahrhaftes Gericht aus saftigem Hähnchenfleisch, einer aromatischen Paprikasoße und frischem Zucchini-Gemüse. Dieses Gericht ist eine perfekte Kombination aus Eiweiß, Gemüse und Geschmack. Es ist ideal für eine schnelle und dennoch nahrhafte Mahlzeit unter der Woche oder als festliches Gericht für besondere Anlässe. Es ist einfach zuzubereiten und kann schnell auf den Tisch gebracht werden.",
+        "price": 38
       }
     }
   },
@@ -136,7 +144,8 @@
           "Mohnhörnchen aus Dinkelmehl",
           "Leichte Frühstücks-Croissants mit Joghurt"
         ],
-        "desription": "Wer geht die Brötchen holen?“ war gestern! Heutzutage wird selbst gebacken zum Frühstück. Ein Trend, den ich natürlich total genial finde, denn mit etwas Kreativität kann man so manche Köstlichkeit zaubern, die einem keine Bäckerei liefern kann."
+        "desription": "Wer geht die Brötchen holen?“ war gestern! Heutzutage wird selbst gebacken zum Frühstück. Ein Trend, den ich natürlich total genial finde, denn mit etwas Kreativität kann man so manche Köstlichkeit zaubern, die einem keine Bäckerei liefern kann.",
+        "price": 21
       },
       "Mittagessen": {
         "name": "Kulturelles Mittagessen",
@@ -148,7 +157,8 @@
           "Italienische Foccacia mit Bärlauch",
           "Focaccia-Variation"
         ],
-        "desription": "Wenn der Tag besonders stressig ist, braucht es manchmal Essen für die Seele. Dieser Nudelauflauf erfüllt garantiert alle deine Sehnsüchte und seine Zubereitungsart ist sehr simpel und noch dazu superschnell."
+        "desription": "Wenn der Tag besonders stressig ist, braucht es manchmal Essen für die Seele. Dieser Nudelauflauf erfüllt garantiert alle deine Sehnsüchte und seine Zubereitungsart ist sehr simpel und noch dazu superschnell.",
+        "price": 38
       },
       "Abendessen": {
         "name": "Gesundes Abendessen",
@@ -160,7 +170,8 @@
           "Wraps mit Lachs, Kresse und Ei",
           "Frische Tomatensuppe mit Basilikum"
         ],
-        "desription": "Dieses Gericht ist eine köstliche Kombination aus zartem Schweinefleisch, einer knusprigen Panade aus Parmesan und Semmelbröseln sowie einer leckeren Beilage aus Honig-Kartoffeln und Gurkensalat. Das Schweineschnitzel wird traditionell paniert und knusprig gebraten, um eine knusprige Textur und einen vollen Geschmack zu erzielen."
+        "desription": "Dieses Gericht ist eine köstliche Kombination aus zartem Schweinefleisch, einer knusprigen Panade aus Parmesan und Semmelbröseln sowie einer leckeren Beilage aus Honig-Kartoffeln und Gurkensalat. Das Schweineschnitzel wird traditionell paniert und knusprig gebraten, um eine knusprige Textur und einen vollen Geschmack zu erzielen.",
+        "price": 55
       }
     }
   },
@@ -177,7 +188,8 @@
           "Müsli, Bowls und Co.",
           "Toastmuffins mit grünem Spargel"
         ],
-        "desription": "Jeden Morgen –  Tag aus, Tag ein – die immer selbe Salami oder die ewig gleiche Marmelade? Da kann ich ganz schnell Abhilfe schaffen mit ein paar Anregungen für leckere, selbstgemachte Aufstriche. Ein Trend, der schwer im Kommen ist und zurecht im Kommen ist, da man hierdurch ein simples Brot oder eine einfache Semmel zu ganz was Besonderen machen kann!"
+        "desription": "Jeden Morgen –  Tag aus, Tag ein – die immer selbe Salami oder die ewig gleiche Marmelade? Da kann ich ganz schnell Abhilfe schaffen mit ein paar Anregungen für leckere, selbstgemachte Aufstriche. Ein Trend, der schwer im Kommen ist und zurecht im Kommen ist, da man hierdurch ein simples Brot oder eine einfache Semmel zu ganz was Besonderen machen kann!",
+        "price": 30
       },
       "Mittagessen": {
         "name": "Kleines und Schnelles Mittagessen",
@@ -189,10 +201,11 @@
           "Schinkenhörnchen mit Käse",
           "Pizza Vier Jahreszeiten"
         ],
-        "desription": "Knusprige Schupfnudeln, saftige Paprika und würzige Zwiebeln vereint in einer leckeren Pfanne. Serviert mit cremigem Schmand, ist diese Schupfnudelpfanne ein wahrer Gaumenschmaus. Die Schupfnudelpfanne ist ein köstliches Gericht aus Schupfnudeln, Paprika und Zwiebeln, das in einer Pfanne gebraten wird, bis es goldbraun und knusprig ist. Die Schupfnudeln sind eine Art dicker und länglicher Nudel aus Kartoffelteig und verleihen dem Gericht eine herzhafte Note. Die Paprika und Zwiebeln hingegen sorgen für eine fruchtige und würzige Geschmacksnote."
+        "desription": "Knusprige Schupfnudeln, saftige Paprika und würzige Zwiebeln vereint in einer leckeren Pfanne. Serviert mit cremigem Schmand, ist diese Schupfnudelpfanne ein wahrer Gaumenschmaus. Die Schupfnudelpfanne ist ein köstliches Gericht aus Schupfnudeln, Paprika und Zwiebeln, das in einer Pfanne gebraten wird, bis es goldbraun und knusprig ist. Die Schupfnudeln sind eine Art dicker und länglicher Nudel aus Kartoffelteig und verleihen dem Gericht eine herzhafte Note. Die Paprika und Zwiebeln hingegen sorgen für eine fruchtige und würzige Geschmacksnote.",
+        "price": 44
       },
       "Abendessen": {
-        "name": "cuma Abendessen yemek adi",
+        "name": "Spaghetti mit Gemüse",
         "calori": 1500,
         "imageUrl": "https://d2am1qai33sroc.cloudfront.net/image/57d2d8f23000001d00bcd54f?kptnkey=6q7QNKy-oIgk-IMuWisJ-jfN7s6",
         "ingredients": [
@@ -201,7 +214,8 @@
           "Gebratener Reis mit Gemüse",
           "Omelett mit Feta und Tomaten"
         ],
-        "desription": "Fruchtige Karotten und herzhafte Kartoffeln vereint zu einer köstlichen Pfanne. Serviert mit frischem Kräuterquark, ist dieses vegetarische Gericht eine wahre Wohltat für den Gaumen. Die Kartoffel-Karotten-Pfanne ist ein leckeres und gesundes vegetarisches Gericht, das aus frischen Karotten und Kartoffeln besteht. Beide Zutaten sind reich an Nährstoffen und verleihen dem Gericht eine frische und erdige Note. Die Pfanne wird mit frischem Kräuterquark serviert, der dem Gericht eine cremige Konsistenz verleiht und perfekt mit dem Geschmack der Karotten und Kartoffeln harmoniert."
+        "desription": "Fruchtige Karotten und herzhafte Kartoffeln vereint zu einer köstlichen Pfanne. Serviert mit frischem Kräuterquark, ist dieses vegetarische Gericht eine wahre Wohltat für den Gaumen. Die Kartoffel-Karotten-Pfanne ist ein leckeres und gesundes vegetarisches Gericht, das aus frischen Karotten und Kartoffeln besteht. Beide Zutaten sind reich an Nährstoffen und verleihen dem Gericht eine frische und erdige Note. Die Pfanne wird mit frischem Kräuterquark serviert, der dem Gericht eine cremige Konsistenz verleiht und perfekt mit dem Geschmack der Karotten und Kartoffeln harmoniert.",
+        "price": 56
       }
     }
   }
